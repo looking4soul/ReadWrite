@@ -51,7 +51,9 @@ DApp成功运行。
 Remix是以太坊智能合约开发官方IDE
 
 地址：https://remix.ethereum.org/
+
 功能：编辑、编译、调试、静态分析、运行、部署智能合约
+
 如需了解如何使用，参考Remix文档：https://remix.readthedocs.io/
 
 ## MetaMask
@@ -83,6 +85,8 @@ http://faucet.ropsten.be:3001/
 调用智能合约的js库
 
 1.0文档：http://web3js.readthedocs.io/en/1.0/index.html
+
 0.2x.x文档：https://github.com/ethereum/wiki/wiki/JavaScript-API
+
 github：https://github.com/ethereum/web3.js/
 
