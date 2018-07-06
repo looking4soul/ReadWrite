@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+</head>
+<body>
+    <div id="app">
+        store: {{ store }}
+        <div>
+          <input type="text" v-model="input"> </input>
+          <button @click="setStore" :disabled="buttonDisabled">Set Store</button>
+          <div v-if="show">hash为{{ txHash }}的交易已被成功提交，请等待一会儿让它被区块链节点确认后才能生效，预计需要数分钟。</div>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
